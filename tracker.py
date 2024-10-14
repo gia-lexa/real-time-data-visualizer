@@ -25,7 +25,7 @@ def update_graph(i, stock_symbol):
     times.pop(0)
 
   plt.cla() # clear current axes
-  plt.plot(times, prices, label=f'Stock Price: {stock_symbol}', color='blue') ')
+  plt.plot(times, prices, label=f'Stock Price: {stock_symbol}', color='blue')
 
   # format graph
   plt.gcf().autofmt_xdate
