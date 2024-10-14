@@ -29,7 +29,7 @@ def update_graph(i, stock_symbol):
 
   # format graph
   plt.gcf().autofmt_xdate
-  plt.xlable('Time')
+  plt.xlabel('Time')
   plt.ylabel('Price (USD)')
   plt.title(f'Real-Time Stock Price of {stock_symbol}')
   plt.legend(loc='upper left')
