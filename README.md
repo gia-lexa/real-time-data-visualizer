@@ -10,7 +10,7 @@ demonstrates POC, but more complex iterations are on the way.
 - Updates every 5 seconds to reflect the most current stock data.
 - Easy-to-run Python script with minimal dependencies.
 
-This project is designed to showcase:
+This project is designed to handle:
 
 - Real-time API integration and data processing.
 - Dynamic data visualization using matplotlib.
