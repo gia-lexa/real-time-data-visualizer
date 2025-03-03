@@ -16,37 +16,6 @@ This project is designed to handle:
 - Dynamic data visualization using matplotlib.
 - Handling live data with Python.
 
-To run this project, you’ll need the following dependencies:
-
-- Python 3.x
-- yfinance library for fetching stock prices.
-- matplotlib for real-time data visualization.
-
-You can install the required dependencies using pip:
-```
-pip install yfinance matplotlib
-```
-
-#### Getting Started
-Clone the repository:
-```
-git clone https://github.com/yourusername/real-time-stock-tracker.git
-cd real-time-stock-tracker
-```
-
-Run the tracker:
-```
-python3 tracker.py
-```
-
-Enter a stock symbol (e.g., AAPL for Apple) when prompted:
-```
-Enter the stock symbol (e.g., AAPL for Apple): AAPL
-```
-
-View the live-updating graph of the stock price, which refreshes every 5 seconds.
-TODO: Add example screenshot
-
 
 #### Project Structure
 - tracker.py: The main Python script that fetches stock prices and displays the live-updating graph.
@@ -67,3 +36,6 @@ The tests currently ensure that:
 - Add more detailed stock information, such as volume, moving averages, and historical data.
 - Allow users to track multiple stocks simultaneously.
 - Implement a more advanced data visualization using plotly for interactive graphs.
+
+### Disclaimer
+This project is an in-progress technical exploration of data visualization. While provided under the MIT License, it is not optimized for production use, and no guarantees are made regarding security, reliability, or real-world performance.
